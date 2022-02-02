@@ -44,7 +44,25 @@ li {
   background-color: rgb(47, 193, 140);
 }
 
-table, th, td {
+table {
+  margin: 30px;
+  padding: 7px;
+  border: 2px solid rgb(47, 193, 140);
+  width: 20px;
+  height: 50px;
+  text-align: center;
+}
+
+td {
+  margin: 30px;
+  padding: 7px;
+  border: 2px solid rgb(47, 193, 140);
+  width: 20px;
+  height: 50px;
+  text-align: center;
+}
+
+th {
   margin: 30px;
   padding: 7px;
   border: 2px solid rgb(47, 193, 140);
@@ -90,5 +108,4 @@ aside {
   font-size: 15px;
   width: 30%;
   margin-right: 50px;
-  margin-top: 100px;
 }
