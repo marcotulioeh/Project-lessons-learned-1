@@ -44,25 +44,7 @@ li {
   background-color: rgb(47, 193, 140);
 }
 
-table {
-  margin: 30px;
-  padding: 7px;
-  border: 2px solid rgb(47, 193, 140);
-  width: 20px;
-  height: 50px;
-  text-align: center;
-}
-
-th {
-  margin: 30px;
-  padding: 7px;
-  border: 2px solid rgb(47, 193, 140);
-  width: 20px;
-  height: 50px;
-  text-align: center;
-}
-
-td {
+table, th, td {
   margin: 30px;
   padding: 7px;
   border: 2px solid rgb(47, 193, 140);
