@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 #cabecalho {
@@ -39,4 +42,51 @@ li {
 
 #rodape {
   background-color: rgb(47, 193, 140);
+}
+
+table, th, td {
+  margin: 30px;
+  padding: 7px;
+  border: 2px solid rgb(47, 193, 140);
+  width: 20px;
+  height: 50px;
+  text-align: center;
+}
+a {
+  text-decoration: dashed;
+}
+
+aside {
+  width: 300px;
+  padding: 20px;
+  vertical-align: top;
+  font-style: italic;
+  background-color: rgb(47, 193, 140);
+  display: inline-block;
+  position: fixed;
+  top: 150px;
+  left: 900px;
+  margin-bottom: 50px;
+}
+
+.vertical {
+  margin-left: 0px;
+}
+
+#titulo_vertical {
+  margin-left: 20px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  font-size: 15px;
+  width: 30%;
+  margin-right: 50px;
+}
+
+.lado-direito {
+  display: inline-block;font-size: 15px;
+  width: 30%;
+  margin-right: 50px;
+  margin-top: 100px;
 }
